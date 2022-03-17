@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="dev">
+            <group id="debug">
+                <field id="template_hints_parameter_value">
+                    <label>Parameter Value</label>
+                    <depends>
+                        <field id="*/*/template_hints_storefront">1</field>
+                        <field id="*/*/template_hints_storefront_show_with_parameter">1</field>
+                    </depends>
+                    <comment>Add the following parameter to the URL to show template hints ?[parameter_name]=[parameter_value]</comment>
+                </field>
+                <field id="template_hints_parameter_name" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Parameter Name</label>
+                    <depends>
+                        <field id="*/*/template_hints_storefront">1</field>
+                        <field id="*/*/template_hints_storefront_show_with_parameter">1</field>
+                    </depends>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
