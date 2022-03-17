@@ -1,4 +1,6 @@
 # magento2-templatehints
+Install: `composer require danstaver/template-hints`
+
 Add the option to customize templatehints parameter name:
 
 By default, if you enable `Stores -> Settings -> All Stores -> Advanced -> Developer -> Debug -> Enable Hints for Storefront with URL Parameter` / `dev/debug/template_hints_storefront_show_with_parameter`, the only option you have for the parameter name, is `templatehints`, because it is hard coded inside `\Magento\Developer\Model\TemplateEngine\Plugin\DebugHints::afterCreate`, there is no option to customize parameter name.
