@@ -1,6 +1,5 @@
 {
   "name": "danstaver/template-hints",
-  "version": "1.0.1",
   "description": "Add the option to customize templatehints parameter name.",
   "type": "magento2-module",
   "require": {
