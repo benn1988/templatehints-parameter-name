@@ -9,7 +9,7 @@
     </type>
     <type name="DanStaver\TemplateHints\Plugin\AddTemplateHintsParameterName">
         <arguments>
-            <argument name="debugHintsPath" xsi:type="string">dev/debug/template_hints_storefront</argument>
+            <argument name="debugHintsPath" xsi:type="string">dev/debug/template_hints_admin</argument>
             <argument name="debugHintsWithParam" xsi:type="string">dev/debug/template_hints_storefront_show_with_parameter</argument>
             <argument name="debugHintsParameter" xsi:type="string">dev/debug/template_hints_parameter_value</argument>
         </arguments>
